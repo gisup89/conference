@@ -13,7 +13,7 @@ html, body {
     height: 100%;
 }
 
-/* STILAR FÖR RUBRIKER */
+/* STILAR FOR RUBRIKER */
 h1, h2, h3, h4, h5, h6 {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: #bf190b;
@@ -46,7 +46,7 @@ p {
 hr {
 	border: 0;
 	color: #CCCCCC;
-	background-color: #CCCCC;
+	background-color: #CCCCCC;
 	height: 1px;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 #nav {
-	background:#004c93;
+	background:#F05F40;
 	padding-bottom: 10px;
 	padding-left: 30px;
 	padding-top: 10px;
@@ -142,7 +142,7 @@ body {
 }
 #banner {
    /*background-image:url(images/mdm_header1.jpg);height:300px; width:900px;*/
-   background-image:url(images/daejeonBanner.jpg);height:325px; width:900px;
+   background-image:url(images/background.jpg);height:400px; width:900px;
 }
 #bannertext{position: relative;
     height: auto;
