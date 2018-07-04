@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+	
+	
+* {
+    margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* STILAR FÖR RUBRIKER */
+h1, h2, h3, h4, h5, h6 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #bf190b;
+	padding-bottom: 5px;
+	line-height: 140%;
+}
+
+
+h1 {
+  	font-size: 2.6em;
+}
+
+h2 {
+  	font-size: 1.8em;
+}
+
+h3 {
+  	font-size: 1.6em;
+}
+h4, h5, h6 {
+  	font-size: 1.2em;
+}
+
+
+p {
+		padding-bottom: 10px;
+		font-size: 1.2em;
+}
+
+hr {
+	border: 0;
+	color: #CCCCCC;
+	background-color: #CCCCC;
+	height: 1px;
+}
+
+.ingress {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 150%;
+}
+
+body {
+	
+  	font-size: 0.688em; /* Default font size 11px */
+	line-height: 1.6em; 
+	color:#494949;
+	background: url(images/bg_gradient.jpg) repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	
+}
+
+/* STYR BREDD OCH POSITIONERAR ALLT I MITTEN */
+.container{
+	width:900px;
+	margin: 0 auto;
+	position: relative;
+	overflow:hidden;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -130px;
+	text-align:left;
+	background-image:url(images/bg_main.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+#nav {
+	background:#004c93;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-top: 10px;
+	background-image: url(images/bg_nav.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+
+#nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+#nav a:hover { 
+  	color: #FF9900;
+  	text-decoration:underline;
+}
+
+#nav ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#nav li{
+	display:inline;
+	margin:0;
+	padding-right:20px;
+}
+
+#main-wrapper{
+	position: relative;
+	background-image:url(images/bg_content.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-color: #FFFFFF;
+}
+
+
+#content {
+	width: 560px;
+	padding:30px;
+	position: relative;
+	float:left;
+}
+
+#sidebar{
+	position:relative;
+	float:right;
+	width:150px;
+	padding:30px;
+}
+#banner {
+   /*background-image:url(images/mdm_header1.jpg);height:300px; width:900px;*/
+   background-image:url(images/daejeonBanner.jpg);height:325px; width:900px;
+}
+#bannertext{position: relative;
+    height: auto;
+    width: auto;
+    left: 30px;
+    top: 20px;
+    color: white	;
+    font-family:Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    line-height: 140%;}
+
+#footer, .push {
+    height: 100px;
+}
+
+#footer{
+	background: #7a85a9 url(images/bg_footer.jpg) 0 0 repeat-x;
+	height: 130px;
+}
+
+#footer a {
+	color: #FFFFFF;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	color: #FF9900;
+	text-decoration:underline;
+}
+
+#footercontent {
+	font-size: 10px;
+	padding: 30px;
+	color: #FFFFFF;
+	line-height: 130%;
+			
+}
+
+#footercontent hr {
+	border: 0;
+	color: #FFFFFF;
+	background-color: #c61a0e;
+	height: 1px;
+}
+
+#footercontent p {
+	padding-top: 4px;
+}
+
+#footer h3 {
+	padding-bottom: 3px;
+	color: #FFFFFF;
+}
+
+#footer h2 {
+	padding-bottom: 3px;
+	color: #FFFFFF;
+}
+
+.footercolumn{
+	float: left;
+	width:260px;
+	margin-right: 50px;
+}
+
+.footerleft{
+	margin-right:0px;
+}
+
+.footerright{
+	margin-right:0px;
+}
+
+a {
+  text-decoration: none;
+  color: #586792;
+}
+
+a:hover { 
+  color: #586792;
+  text-decoration:underline;
+}
